@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><title>Sign up page.</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+body {
+    margin:0;
+    background:url(Images/black.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:100%;
+}
+
+#container {
+    margin:auto;
+    position:relative;
+    top:30px;
+    width:30%;
+    height:500px;
+    border-radius:5px;
+    background:url(Images/login.jpg);
+    background-size:cover;
+    background-position:center;
+    border:1px solid rgb(245,245,245,0.2);
+    color:rgb(245,245,245);
+    box-shadow:3px 3px 30px rgb(0,0,0,0.8);
+    transition:ease-in-out 200ms;
+}
+
+#container:hover {
+    box-shadow:5px 5px 50px rgb(245,5,5);
+}
+
+h3, h1 {
+    text-align:center;
+}
+
+h3 {
+    font-size:100%;
+}
+
+form {
+    position:relative;
+    top:90px;
+    text-align:center;
+}
+    
+footer {
+    position:absolute;
+    bottom:10px;
+    right:20px;
+}
+
+.homeButton {
+    width:140px;
+    border-radius:25px;
+    background:url(Images/login.jpg);
+    background-size:cover;
+    text-decoration:none;
+    color:white;
+    position:absolute;
+    bottom:0;
+    right:0;
+    text-align:center;
+    transition:ease-in-out 200ms;
+}
+
+.homeButton:hover {
+    box-shadow:5px 5px 50px rgb(245,5,5);
+}
+
+            </style>
+
+</head>
+<body>
+
+    <div id="container">
+        <div id="mainText">
+        <h3>What are you waiting for?<br/>Create your account for unlimited samples today! </h3>
+        </div>
+        <div id="logo">
+        <h1>Logo here</h1>
+        </div>
+        <div id="form">
+        <form>
+            <p>Username:</p><input type="text" required><br/>
+            <p>Email:</p><input type="email" required><br/>
+            <p>Password:</p><input type="password" minlength="5" required><br/><br/>
+            <input type="submit" value="Create">
+            <br/><br/>
+        </form>
+    </div>
+    </div>
+
+    <footer>
+        <a href="index.html" class="homeButton">Home</a>
+    </footer>
+
+</body>
+</html>

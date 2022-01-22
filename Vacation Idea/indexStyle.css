@@ -1,0 +1,159 @@
+body {
+    background: url(Images/background.jpg) no-repeat center center fixed;
+    background-size:cover;
+    margin:0;
+    height:100%;
+}
+
+#headerContainer {
+    background: rgb(245,245,245,0.6);
+    box-shadow: 4px 4px 40px rgb(0,0,0,0.9);
+    width:100%;
+    height:110px;
+    text-align:center;
+    transition:ease-in-out 200ms;
+}
+
+#headerContainer:hover {
+    box-shadow:5px 5px 50px 15px rgb(245,5,5);
+}
+
+
+.redSection1 {
+    width:100%;
+    height:15px;
+    background: url(Images/redblack.jpg);
+}
+
+ul {
+    background:url(Images/redblack.jpg);
+    list-style:none;
+    top:111px;
+    width:100%;
+    position:absolute;
+    margin:0;
+    padding:0;
+}
+
+li {
+    float:left;
+}
+
+li a {
+    text-decoration:none;
+    color:rgb(245,245,245,0.8);
+    padding:1px 16px;
+    text-align:center;
+} 
+
+li a.active {
+    background:rgb(245,245,245);
+    color:rgb(245,5,5);
+}
+
+li a:hover:not(.active) {
+    background:rgb(0,0,0);
+    color:rgb(245,5,5);
+    box-shadow:5px 5px 25px rgb(245,5,5);
+}
+
+
+
+.clickhere {
+    font-size:12px;
+}
+
+
+#logo {
+    color:rgb(0,0,0,);
+    text-align:center;
+}
+
+#login {
+    text-align:center;
+    right:0;
+    background:url(Images/login.jpg);
+    background-size:cover;
+    width:100px;
+    border-radius:25px;
+    cursor:pointer;
+    position:absolute;
+    right:0;
+    top:20px;
+    text-decoration:none;
+    color:rgb(245,245,245,0.9);
+}
+
+#signin {
+    text-align:center;
+    right:0;
+    background:url(Images/login.jpg);
+    background-size:cover;
+    width:100px;
+    border-radius:25px;
+    cursor:pointer;
+    text-decoration:none;
+    color:rgb(245,245,245);
+    position:absolute;
+    right:105px;
+    top:20px;
+}
+
+.bigcontainer {
+    background:rgb(245,245,245,0.9);
+    box-shadow:3px 3px 20px 25px rgb(0,0,0,0.8) ;
+    margin:auto;
+    width:98%;
+    border-radius:5px;
+    color:white;
+}
+
+.paragraph {
+    clear:both;
+    margin:auto;
+    color:black;
+    width:90%;
+    background:rgb(245,0,0,0.9);
+    box-shadow:3px 3px 20px rgb(0,0,0,0.9);
+    border-radius:5px;
+}
+
+#test {
+    background:rgb(245,5,5,0.9);
+    border-radius:5px;
+}
+
+
+.previewVideo img {
+    width:200px;
+    height:150px;
+    padding:0 10px 0 40px;
+}
+
+footer {
+    position:absolute;
+    background:url(Images/black.jpg);
+    color:white;
+    width:100%; 
+    height:100px;
+    border-top:2px solid rgb(245,0,0,0.5);
+    font-size:75%;
+    text-align:right;
+    transition: ease-in-out 200ms;
+}
+
+footer:hover {
+    box-shadow:5px 5px 50px  rgb(245,5,5);
+}
+
+.strips {
+    background:url(Images/redblack.jpg);
+    position:absolute;
+    width:100%;
+    height:12px;
+    bottom:0;
+}
+
+#footer p {
+    padding:5px;
+}
